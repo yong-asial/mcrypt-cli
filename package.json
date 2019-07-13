@@ -1,0 +1,24 @@
+{
+  "name": "mcrypt-cli",
+  "version": "1.0.0",
+  "description": "mcrypt-cli",
+  "main": "index.js",
+  "bin": {
+    "mcrypt-cli": "./index.js"
+  },
+  "engines": {
+    "node": ">=8.0.0 <11.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcrypt"
+  ],
+  "author": "yong@asial.co.jp",
+  "license": "ISC",
+  "dependencies": {
+    "mcrypt": "^0.1.15",
+    "yargs": "^13.2.4"
+  }
+}
